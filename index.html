@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIBECODE - Team Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">VIBECODE</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1>We Are VIBECODE</h1>
+            <p>Innovating the digital landscape, one line of code at a time.</p>
+            <a href="#projects" class="cta-button">View Our Work</a>
+        </div>
+    </header>
+
+    <!-- About Team -->
+    <section id="about" class="about-section">
+        <h2>About VIBECODE</h2>
+        <p class="about-text">We are a passionate team of five tech enthusiasts dedicated to building scalable and modern software solutions. Our diverse skills range from frontend magic to backend robustness, working together to deliver exceptional digital experiences.</p>
+    </section>
+
+    <!-- Team Members -->
+    <section id="team" class="team-section">
+        <h2>Meet the Team</h2>
+        <div id="team-container" class="team-container">
+            <!-- Team members loaded dynamically via app.js -->
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2>Our Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>VibeConnect</h3>
+                <p>A social networking platform exclusively tailored for developers.</p>
+            </div>
+            <div class="project-card">
+                <h3>CodeAnalyzer</h3>
+                <p>An AI-powered tool for comprehensive code review and automated suggestions.</p>
+            </div>
+            <div class="project-card">
+                <h3>CloudSync</h3>
+                <p>A secure and lightning-fast file synchronization and cloud storage service.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 VIBECODE Team. All rights reserved.</p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
