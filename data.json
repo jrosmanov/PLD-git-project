@@ -1,28 +1,71 @@
+
 {
-    "telebeler": [
-        {
-            "adSoyad": "Firudin Maniyev",
-            "role": "Developer"
-        },
-        {
-            "adSoyad": "Jalal Osmanov",
-            "role": "Developer"
-        },
-        {
-            "adSoyad": "Khadija Umudova",
-            "role": "Developer"
-        },
-        {
-            "adSoyad": "Ilknur Kazimli",
-            "role": "Developer"
-        },
-                {
-            "adSoyad": "Atakhan Hacizade",
-            "role": "Developer"
-        },
-                {
-            "adSoyad": "Aliyyiakbar Shirinli",
-            "role": "Developer"
-        }
-    ]
+	"team": {
+		"name": "TEAM CONFLİCTS",
+		"tagline": "Yaratmaq, əməkdaşlıq etmək, nəticə göstərmək",
+		"description": "Team Conflicts — veb və dizayn layihələri üzrə ixtisaslaşmış komanda. Biz istifadəçi ilə əlaqəli, estetik və performanslı həllər yaradırıq."
+	},
+	"members": [
+		{
+			"name": "Firudin Maniyev",
+			"role": "Frontend Developer",
+			"bio": "React və CSS sevən, UI/UX dizaynına həvəsli developer.",
+			"photo": "assets/teammember.jpg",
+			"linkedin": "https://linkedin.com/in/firudinmaniyev"
+		},
+		{
+			"name": "Jalal Osmanov",
+			"role": "Backend Developer",
+			"bio": "Node.js və API-lər üzrə təcrübəli mühəndis.",
+			"photo": "assets/teammember.jpg",
+			"linkedin": "https://linkedin.com/in/jalalosmanov"
+		},
+		{
+			"name": "İlknur Kazimli",
+			"role": "Designer",
+			"bio": "Branding və vizual dizayn üzrə məşğul olan yaradıcılıqçı.",
+			"photo": "assets/teammember.jpg",
+			"linkedin": "https://linkedin.com/in/ilknurkazimli"
+		},
+		{
+			"name": "Khadija Umudova",
+			"role": "Project Manager",
+			"bio": "Layihələri vaxtında və keyfiyyətlə çatdırmağı sevən PM.",
+			"photo": "assets/teammember.jpg",
+			"linkedin": "https://linkedin.com/in/khadijaumudova"
+		}
+		,
+		{
+			"name": "Aliyyiakbar Shirinli",
+			"role": "QA Engineer",
+			"bio": "Keyfiyyət təminatı və test avtomatlaşdırma üzrə ixtisaslaşmış.",
+			"photo": "assets/teammember.jpg",
+			"linkedin": "https://linkedin.com/in/aliyyiakbar"
+		}
+	],
+	"projects": [
+		{
+			"title": "EduPlatform",
+			"desc": "Tələbələr və müəllimlər üçün interaktiv öyrənmə platforması.",
+			"link": "#",
+			"image": "assets/Project.jpg"
+		},
+		{
+			"title": "Shopify Lite",
+			"desc": "Kiçik bizneslər üçün sadə e-ticarət həlli.",
+			"link": "#",
+			"image": "assets/Project.jpg"
+		},
+		{
+			"title": "Portfolio Hub",
+			"desc": "İncəsənətçilər üçün portfolioların toplanma mərkəzi.",
+			"link": "#",
+			"image": "assets/Project.jpg"
+		}
+	],
+	"contact": {
+		"email": "team@teamconflicts.example",
+		"phone": "+994 00 000 0000",
+		"address": "Bakı, Azərbaycan"
+	}
 }
