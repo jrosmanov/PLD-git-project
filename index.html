@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Conflicts — Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="nav-wrap">
+        <nav class="navbar large">
+            <div class="brand" id="brand">Team Conflicts</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="toggle nav">☰</button>
+        </nav>
+    </header>
+
+    <main>
+                <section id="home" class="hero">
+                        <div class="hero-inner">
+                                <h1 id="team-name">Team Conflicts</h1>
+                                <p class="hero-lead">Biz ideyalardan məhsula çevirməyi sevirik. İnnovativ və istifadəçi yönümlü həllər yaradırıq.</p>
+                                <p id="team-tagline">Yaratmaq, əməkdaşlıq etmək, nəticə göstərmək</p>
+                                <div class="hero-cta">
+                                    <a href="#projects" class="btn">Layihələrə bax</a>
+                                    <a href="#contact" class="btn" style="margin-left:10px;background:linear-gradient(90deg,var(--accent-3),var(--accent-2))">Bizimlə əlaqə</a>
+                                </div>
+                                <div class="hero-extra">
+                                    <div class="stat"><strong>5</strong><span>Komanda üzvü</span></div>
+                                    <div class="stat"><strong>-1</strong><span>Layihə</span></div>
+                                    <div class="stat"><strong>1</strong><span>Ölkədə iş</span></div>
+                                </div>
+                        </div>
+                </section>
+
+        <section id="about" class="section about">
+            <div class="container">
+                <h2>About Team</h2>
+                <p class="lead" id="team-desc"></p>
+                <p>Bizim komandamız dizayn, inkişaf və idarəetməni bir araya gətirərək kompleks problemləri sadə və estetik həllərə çevirir. Hər layihəyə fərdi yanaşırıq və nəticə mərkəzli işləyirik.</p>
+            </div>
+        </section>
+
+        <section id="team" class="section team">
+            <div class="container">
+                <h2>Team Members</h2>
+                <div id="members" class="grid"></div>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div id="projects-list" class="grid"></div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container contact-grid">
+                <div>
+                    <h2>Contact</h2>
+                    <p id="contact-info"></p>
+                </div>
+                <form id="contact-form" class="contact-form">
+                    <input type="text" id="name" placeholder="Adınız" required>
+                    <input type="email" id="email" placeholder="Email" required>
+                    <textarea id="message" placeholder="Mesajınız" required></textarea>
+                    <button type="submit" class="btn">Göndər</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer large-footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h3>Team Conflicts</h3>
+                <p>© <span id="year"></span> Team Conflicts. Bütün hüquqlar qorunur.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Sections</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p id="footer-contact"></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
